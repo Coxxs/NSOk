@@ -12,7 +12,7 @@ NSOk requires a rooted Android phone.
 
 4. Reboot, and open NSO app
 
-5. NSOk is now running on the `9000` port of your phone. Forward it to your PC using adb (`adb tcp:9000 tcp:9000`), and you can access it using `http://127.0.0.1:9000/k`
+5. NSOk is now running on the `9000` port of your phone. Forward it to your PC using adb (`adb tcp:9000 tcp:9000`), and you can access it using `http://127.0.0.1:9000/f`
 
 Special thanks to [f-API](https://github.com/imink-app/f-API).
 
