@@ -1,20 +1,24 @@
 # NSOk
 
-NSOk requires a rooted Android phone.
+NSOk is a hex string generator with a very particular set of skills. It requires a rooted Android phone.
+
+## Usage
 
 1. Install [Magisk](https://github.com/topjohnwu/Magisk/releases)
     - Disable "Enforce DenyList" in Magisk Settings
-    - Tick NSO app in DenyList
+    - Tick NSO App in DenyList
 
 2. Install [LSPosed](https://github.com/LSPosed/LSPosed/releases/tag/v1.8.6) and [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases) in Magisk
 
 3. Install NSOk, enable it in LSPosed
 
-4. Reboot, and open NSO app
+4. Reboot, then open NSO App (2.5.1)
 
-5. NSOk is now running on the `9000` port of your phone. Forward it to your PC using adb (`adb tcp:9000 tcp:9000`), and you can access it using `http://127.0.0.1:9000/f`
+5. NSOk is now running on the `9000` port of your phone. Forward it to your PC using adb (`adb tcp:9000 tcp:9000`), then you can access it using `http://127.0.0.1:9000/f`
 
 Special thanks to [f-API](https://github.com/imink-app/f-API).
+
+If you are interested in how it works: [jadx](https://github.com/skylot/jadx).
 
 ## Disclaimer
 
