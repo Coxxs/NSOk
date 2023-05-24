@@ -3,8 +3,8 @@
 NSOk requires a rooted Android phone.
 
 1. Install [Magisk](https://github.com/topjohnwu/Magisk/releases)
-  - Disable "Enforce DenyList" in Magisk Settings
-  - Tick NSO app in DenyList
+    - Disable "Enforce DenyList" in Magisk Settings
+    - Tick NSO app in DenyList
 
 2. Install [LSPosed](https://github.com/LSPosed/LSPosed/releases/tag/v1.8.6) and [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases) in Magisk
 
