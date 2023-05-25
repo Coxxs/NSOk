@@ -15,7 +15,7 @@ NSOk is a hex string generator with a very particular set of skills. It requires
 4. Reboot, then open NSO App (2.5.1)
 
 5. NSOk is now running on the `9000` port of your phone,  you can access it via `http://ip:9000/f`
-    - You can also forward it to your PC using adb (`adb tcp:9000 tcp:9000`), then you can access it using `http://127.0.0.1:9000/f`
+    - You can forward it to your PC using adb (`adb tcp:9000 tcp:9000`), and access it using `http://127.0.0.1:9000/f`
     - You can also expose the server to the Internet to serve more users. However, be aware of the potential risks.
 
 Special thanks to [f-API](https://github.com/imink-app/f-API).
