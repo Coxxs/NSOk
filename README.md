@@ -1,8 +1,21 @@
 # NSOk
 
-NSOk is a hex string generator with a very particular set of skills. It requires a rooted Android phone.
+NSOk is a hex string generator with a very particular set of skills. It requires an Android phone (Root is recommended but not required).
 
 ## Usage
+
+### I have a non-rooted Android phone
+
+1. Use [LSPatch](https://github.com/LSPosed/LSPatch) to patch the NSO App (2.6.0) with NSOk.
+    - LSPatch Portable patch mode is recommended
+
+2. Install patched NSO App
+
+3. NSOk is now running on the `9000` port of your phone,  you can access it via `http://ip:9000/f`
+    - You can forward it to your PC using adb (`adb tcp:9000 tcp:9000`), and access it using `http://127.0.0.1:9000/f`
+    - You can also expose the server to the Internet to serve more users. However, be aware of the potential risks.
+
+### I have a rooted Android phone
 
 1. Install [Magisk](https://github.com/topjohnwu/Magisk/releases)
     - Disable "Enforce DenyList" in Magisk Settings
