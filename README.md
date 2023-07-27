@@ -31,6 +31,8 @@ NSOk is a hex string generator with a very particular set of skills. It requires
     - You can forward it to your PC using adb (`adb tcp:9000 tcp:9000`), and access it using `http://127.0.0.1:9000/f`
     - You can also expose the server to the Internet to serve more users. However, be aware of the potential risks.
 
+----
+
 Special thanks to [f-API](https://github.com/imink-app/f-API).
 
 If you are interested in how it works: [jadx](https://github.com/skylot/jadx).
