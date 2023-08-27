@@ -6,7 +6,7 @@ NSOk is a hex string generator with a very particular set of skills. It requires
 
 ### I have a non-rooted Android phone
 
-1. Use [LSPatch](https://github.com/LSPosed/LSPatch) to patch the NSO App (2.6.0) with NSOk.
+1. Use [LSPatch](https://github.com/LSPosed/LSPatch) to patch the NSO App (2.7.0) with NSOk.
     - LSPatch Portable patch mode is recommended
 
 2. Install patched NSO App, then open it
@@ -21,11 +21,11 @@ NSOk is a hex string generator with a very particular set of skills. It requires
     - Disable "Enforce DenyList" in Magisk Settings
     - Tick NSO App in DenyList
 
-2. Install [LSPosed](https://github.com/LSPosed/LSPosed/releases/tag/v1.8.6) and [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases) in Magisk
+2. Install [LSPosed](https://github.com/LSPosed/LSPosed/releases) and [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases) in Magisk
 
 3. Install NSOk, enable it in LSPosed
 
-4. Reboot, then open NSO App (2.6.0)
+4. Reboot, then open NSO App (2.7.0)
 
 5. NSOk is now running on the `9000` port of your phone,  you can access it via `http://ip:9000/f`
     - You can forward it to your PC using adb (`adb tcp:9000 tcp:9000`), and access it using `http://127.0.0.1:9000/f`
